@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "dowel_type": "ribbed-ribbed",
+    "product": "custom",
+    "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.Dowel.3dm",
+    "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.Dowel.3dm",
+    "cl_radius": 2310,
+    "joint_face": "circumferential-leading",
+	"preinstalled": false,
+    "build_pos_num": 0
+}

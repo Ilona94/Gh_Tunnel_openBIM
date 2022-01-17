@@ -1,0 +1,209 @@
+{
+  "HEADER": {
+    "FILE_DESCRIPTION": {
+      "description": "ViewDefinition[notYetAssigned]",
+      "implementation_level": "2;1"
+    },
+    "FILE_NAME": {
+      "name": "",
+      "time_stamp": "2021-12-22T13:20:03",
+      "author": "Ilona.Laskowska",
+      "organization": "Unknown",
+      "preprocessor_version": "ggRhinoIFC v2.1.58.0 by Geometry Gym Pty Ltd built 2021-12-10T18:29:44",
+      "originating_system": "ggRhinoIFC  v2.1.58.0 - Rhino7 Plug-in by Geometry Gym Pty Ltd",
+      "authorization": "None"
+    },
+    "FILE_SCHEMA": {
+      "schema_identifiers": "IFC4"
+    }
+  },
+  "DATA": [
+    {
+      "type": "IfcProjectLibrary",
+      "id": "21hMc4wgjAqRSadX1a_jic",
+      "GlobalId": "21hMc4wgjAqRSadX1a_jic",
+      "Name": "Asset Property Templates",
+      "Declares": [
+        {
+          "type": "IfcRelDeclares",
+          "id": "1V9uXw1gT02gPkPEPwlIvO",
+          "GlobalId": "1V9uXw1gT02gPkPEPwlIvO",
+          "RelatedDefinitions": [
+            {
+              "type": "IfcPropertySetTemplate",
+              "id": "12aLVZVcv5rgaTnLltBLnd",
+              "GlobalId": "12aLVZVcv5rgaTnLltBLnd",
+              "Name": "Location",
+              "TemplateType": "PSET_OCCURRENCEDRIVEN",
+              "ApplicableEntity": "IfcSpatialStructureElement",
+              "HasPropertyTemplates": [
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "1ymLuN8vPF5RF4P6XK_FZH",
+                  "GlobalId": "1ymLuN8vPF5RF4P6XK_FZH",
+                  "Name": "Project_LocationCode",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "34G2EWsZX1_BtdJhGiPbzd",
+                  "GlobalId": "34G2EWsZX1_BtdJhGiPbzd",
+                  "Name": "Project_Parent_LocationCode",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "29r3CIC1PCPO$6Nig4rMHZ",
+                  "GlobalId": "29r3CIC1PCPO$6Nig4rMHZ",
+                  "Name": "Uniclass_LocationCode",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "3pfbcjXrH0hPIvvT4aqUNR",
+                  "GlobalId": "3pfbcjXrH0hPIvvT4aqUNR",
+                  "Name": "Location_ID",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "1dITTjslz1XP3BC2w_8NEs",
+                  "GlobalId": "1dITTjslz1XP3BC2w_8NEs",
+                  "Name": "Project_LocationDescription",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                }
+              ]
+            },
+            {
+              "type": "IfcPropertySetTemplate",
+              "id": "1lQqf4HwjC39J3cNGKe2hl",
+              "GlobalId": "1lQqf4HwjC39J3cNGKe2hl",
+              "Name": "Asset",
+              "TemplateType": "PSET_OCCURRENCEDRIVEN",
+              "ApplicableEntity": "IfcElement,IfcSystem",
+              "HasPropertyTemplates": [
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2Y_Jhjgh5DNhT3xdCgImT8",
+                  "GlobalId": "2Y_Jhjgh5DNhT3xdCgImT8",
+                  "Name": "SN5_Control_ObjectNr",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "0Yev3wh$rDpQcrYWiOyxUl",
+                  "GlobalId": "0Yev3wh$rDpQcrYWiOyxUl",
+                  "Name": "SN5_Control_ObjectName",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "1vNtVROzbF5eYn42ZtYyam",
+                  "GlobalId": "1vNtVROzbF5eYn42ZtYyam",
+                  "Name": "SN5_Area",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "0rfq8vx9n6gByNOqe2oAEt",
+                  "GlobalId": "0rfq8vx9n6gByNOqe2oAEt",
+                  "Name": "SN5_SubArea",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2B75DEezL0kQcI6E0mT$iR",
+                  "GlobalId": "2B75DEezL0kQcI6E0mT$iR",
+                  "Name": "SN5_Security_class",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "05dQRSKDfCPPiaDLP5Hql$",
+                  "GlobalId": "05dQRSKDfCPPiaDLP5Hql$",
+                  "Name": "SN5_Status",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2v22J7cJ1Axh4dmEY90uR3",
+                  "GlobalId": "2v22J7cJ1Axh4dmEY90uR3",
+                  "Name": "SN5_StatusDate",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcIdentifier"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "3pmODlgYP1$QD5mbRxAFSo",
+                  "GlobalId": "3pmODlgYP1$QD5mbRxAFSo",
+                  "Name": "SN5_StatusS4",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "0OC6ewtzn6yh2tb77f9yOq",
+                  "GlobalId": "0OC6ewtzn6yh2tb77f9yOq",
+                  "Name": "SN5_Comment",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "12QUin7SD0YO_r_$YCwTQO",
+                  "GlobalId": "12QUin7SD0YO_r_$YCwTQO",
+                  "Name": "SN5_Revision",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2X7ozp8wr6ehHIXjw4$5V1",
+                  "GlobalId": "2X7ozp8wr6ehHIXjw4$5V1",
+                  "Name": "SN5_RevisionDate",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2X7ozp8wr6ehHIXjw4$5V2",
+                  "GlobalId": "2X7ozp8wr6ehHIXjw4$5V2",
+                  "Name": "SN5_Status_Approved",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2X7ozp8wr6ehHIXjw4$5V3",
+                  "GlobalId": "2X7ozp8wr6ehHIXjw4$5V3",
+                  "Name": "SN5_Status_Checked",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                },
+                {
+                  "type": "IfcSimplePropertyTemplate",
+                  "id": "2X7ozp8wr6ehHIXjw4$5V4",
+                  "GlobalId": "2X7ozp8wr6ehHIXjw4$5V4",
+                  "Name": "SN5_Status_Completed",
+                  "TemplateType": "P_SINGLEVALUE",
+                  "PrimaryMeasureType": "IfcLabel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

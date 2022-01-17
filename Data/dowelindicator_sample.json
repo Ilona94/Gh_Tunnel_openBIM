@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "name": "dowel indicator",
+    "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+    "joint_face": "circumferential-leading",
+    "plane_uvw": {
+        "origin": "0,0,0",
+        "x_axis": "1,0,0",
+        "y_axis": "0,1,0"
+    }
+}

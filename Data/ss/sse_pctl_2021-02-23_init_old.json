@@ -1,0 +1,2216 @@
+{
+    "$schema": "https://gitlab.arup.com/tsn/data-schema/-/raw/master/PCTL.schema.json",
+    "project_name": "Scarborough Subway Extension",
+    "job_number": 27796700,
+    "ring": [
+        {
+            "id": 1,
+            "name": "SSE universal ring, concept illustration, update 23 Feb 2021",
+            "ring_type": "universal taper",
+            "build_pos": {
+                "qty": 24,
+                "start_angle": 0
+            },
+            "ring_dims": {
+                "Radius": 5550,
+                "Thickness": 400,
+                "Width": 2000,
+                "Taper": 50
+            },
+            "segment": [
+                {
+                    "id": 1,
+                    "name": "AB",
+                    "seg_type": "key-adjacent quadrilateral",
+                    "ringbuild_seq": 6,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 22.5,
+                        "subtend_end": 67.5,
+                        "skew_start": 11,
+                        "skew_end": 0,
+                        "twist_start": -7,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-491.317591116653,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "508.682408883347,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "AB",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.AB.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "A",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.A.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "17.364817766693,200,-98.4807753012208",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "B",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.B.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "BC",
+                    "seg_type": "standard rectangle",
+                    "ringbuild_seq": 4,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 67.5,
+                        "subtend_end": 112.5,
+                        "skew_start": 0,
+                        "skew_end": 0,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "BC",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.BC.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "B",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.B.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "C",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.C.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "CD",
+                    "seg_type": "standard rectangle",
+                    "ringbuild_seq": 2,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 112.5,
+                        "subtend_end": 157.5,
+                        "skew_start": 0,
+                        "skew_end": 0,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "CD",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.CD.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "C",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.C.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "D",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.D.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "DE",
+                    "seg_type": "standard rectangle",
+                    "ringbuild_seq": 1,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 157.5,
+                        "subtend_end": 202.5,
+                        "skew_start": 0,
+                        "skew_end": 0,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "DE",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.DE.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "D",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.D.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "E",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.E.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 5,
+                    "name": "EF",
+                    "seg_type": "standard rectangle",
+                    "ringbuild_seq": 3,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 202.5,
+                        "subtend_end": 247.5,
+                        "skew_start": 0,
+                        "skew_end": 0,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "EF",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.EF.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "E",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.E.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "F",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.F.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 6,
+                    "name": "FG",
+                    "seg_type": "standard rectangle",
+                    "ringbuild_seq": 5,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 247.5,
+                        "subtend_end": 292.5,
+                        "skew_start": 0,
+                        "skew_end": 0,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "FG",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.FG.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "F",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.F.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "G",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.G.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 7,
+                    "name": "GH",
+                    "seg_type": "key-adjacent quadrilateral",
+                    "ringbuild_seq": 7,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 292.5,
+                        "subtend_end": 337.5,
+                        "skew_start": 0,
+                        "skew_end": -11,
+                        "twist_start": 0,
+                        "twist_end": 7
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "500,200,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-508.682408883347,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "491.317591116653,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "GH",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.GH.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "G",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.G.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "H",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.H.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-17.364817766693,200,-98.4807753012208",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 8,
+                    "name": "HA",
+                    "seg_type": "key trapezoid",
+                    "ringbuild_seq": 8,
+                    "ring_dims": {
+                        "Radius": 5550,
+                        "Thickness": 425,
+                        "Width": 2000,
+                        "Taper": 50
+                    },
+                    "seg_dims": {
+                        "subtend_start": 337.5,
+                        "subtend_end": 22.5,
+                        "skew_start": -11.0,
+                        "skew_end": 11.0,
+                        "twist_start": 7,
+                        "twist_end": -7
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "thread",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-500,0,0",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "500,0,0",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-508.682408883347,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "491.317591116653,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-491.317591116653,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "508.682408883347,200,-49.2403876506104",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "HA",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.HA.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "H",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.H.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-17.364817766693,200,-98.4807753012208",
+                                    "x_axis": "0.984807753012208,0,-0.17364817766693",
+                                    "y_axis": "-0.17364817766693,0,-0.984807753012208"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "A",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_out\\Void.TextLabel.A.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "17.364817766693,200,-98.4807753012208",
+                                    "x_axis": "0.984807753012208,0,0.17364817766693",
+                                    "y_axis": "0.17364817766693,0,-0.984807753012208"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "330.2,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket",
+                                "obj_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\john.kuyt\\Arup\\Michael Dutton (G) - BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

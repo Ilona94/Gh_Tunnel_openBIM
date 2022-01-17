@@ -1,0 +1,1565 @@
+{
+    "$schema": "https://gitlab.arup.com/tsn/data-schema/-/raw/master/PCTL.schema.json",
+    "project_name": "E5",
+    "job_number": 283797,
+    "ring": [
+        {
+            "id": 1,
+            "name": "SSE universal ring, concept illustration, update 23 Feb 2021",
+            "ring_type": "universal taper",
+            "build_pos": {
+                "qty": 9,
+                "start_angle": 0
+            },
+            "ring_dims": {
+                "Radius": 2310,
+                "Thickness": 280,
+                "Width": 1500,
+                "Taper": 0
+            },
+            "segment": [
+                {
+                    "id": 1,
+                    "name": "A",
+                    "seg_type": "key-adjacent quadrilateral",
+                    "ringbuild_seq": 5,
+                    "ring_dims": {
+                        "Radius": 2310,
+                        "Thickness": 280,
+                        "Width": 1500,
+                        "Taper": 0
+                    },
+                    "seg_dims": {
+                        "subtend_start": 20.0,
+                        "subtend_end": 100.0,
+                        "skew_start": 10,
+                        "skew_end": 10,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0", 
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "A",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.AB.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,140,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "AE",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.A.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "AB",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.B.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Vacuum lift shear pocket - left - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,-300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vacuum lift shear pocket - right - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,-300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-600,250,0",
+                                    "x_axis": "1,-0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Grouting socket - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "600,250,0",
+                                    "x_axis": "1,0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "B",
+                    "seg_type": "romboidal",
+                    "ringbuild_seq": 4,
+                    "ring_dims": {
+                        "Radius": 2310,
+                        "Thickness": 280,
+                        "Width": 1500,
+                        "Taper": 0
+                    },
+                    "seg_dims": {
+                        "subtend_start": 100,
+                        "subtend_end": 180,
+                        "skew_start": 10,
+                        "skew_end": 10,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0", 
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "B",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.BC.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,140,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "AB",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.B.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "BC",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.C.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Vacuum lift shear pocket - left - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,-300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vacuum lift shear pocket - right - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,-300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-600,250,0",
+                                    "x_axis": "1,-0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Grouting socket - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "600,250,0",
+                                    "x_axis": "1,0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "C",
+                    "seg_type": "romboidal",
+                    "ringbuild_seq": 2,
+                    "ring_dims": {
+                        "Radius": 2310,
+                        "Thickness": 280,
+                        "Width": 1500,
+                        "Taper": 0
+                    },
+                    "seg_dims": {
+                        "subtend_start": 180,
+                        "subtend_end": 260,
+                        "skew_start": 10,
+                        "skew_end": -10,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0", 
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "C",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.CD.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,140,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "BC",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.C.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "CD",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.D.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Vacuum lift shear pocket - left - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,-300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vacuum lift shear pocket - right - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,-300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-600,250,0",
+                                    "x_axis": "1,-0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Grouting socket - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "600,250,0",
+                                    "x_axis": "1,0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "D",
+                    "seg_type": "romboidal",
+                    "ringbuild_seq": 1,
+                    "ring_dims": {
+                        "Radius": 2310,
+                        "Thickness": 280,
+                        "Width": 1500,
+                        "Taper": 0
+                    },
+                    "seg_dims": {
+                        "subtend_start": 260,
+                        "subtend_end": 340,
+                        "skew_start": -10,
+                        "skew_end": -10,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0", 
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "D",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.DE.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,200,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "CD",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.D.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "DE",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.E.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Vacuum lift shear pocket - left - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,-300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vacuum lift shear pocket - right - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,-300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-600,250,0",
+                                    "x_axis": "1,-0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Grouting socket - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "600,250,0",
+                                    "x_axis": "1,0.25974025974,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 6,
+                    "name": "E",
+                    "seg_type": "key trapezoid",
+                    "ringbuild_seq": 5,
+                    "ring_dims": {
+                        "Radius": 2310,
+                        "Thickness": 280,
+                        "Width": 1500,
+                        "Taper": 0
+                    },
+                    "seg_dims": {
+                        "subtend_start": 340,
+                        "subtend_end": 20,
+                        "skew_start": -10,
+                        "skew_end": 10,
+                        "twist_start": 0,
+                        "twist_end": 0
+                    },
+                    "joint": [
+                        {
+                            "location": "circumferential-leading",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "circumferential-trailing",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-right",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        },
+                        {
+                            "location": "longitudinal-left",
+                            "contact": "flat",
+                            "pline_face": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointFace.All.3dm",
+                            "pline_relief_left": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm",
+                            "pline_relief_right": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\JointRelief.All.3dm"
+                        }
+                    ],
+                    "component": {
+                        "bolt": [
+                            {
+                                "id": 1,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0", 
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "end": "head",
+                                "joint_face": "longitudinal-right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltHead.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltHead.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "end": "thread",
+                                "joint_face": "longitudinal-left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.RadBoltThread.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.RadBoltThread.3dm",
+                                "plane_uvw": {
+                                    "origin": "-375,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "indicator": [
+                            {
+                                "id": 1,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "radial bolt indicator",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.AlignmentIndicator.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "-375,140,-50",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "label": [
+                            {
+                                "id": 1,
+                                "name": "Segment identification",
+                                "text": "E",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.FG.3dm",
+                                "joint_face": "none",
+                                "plane_uvw": {
+                                    "origin": "0,140,-250",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Right longitudinal joint identification",
+                                "text": "DE",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.F.3dm",
+                                "joint_face": "longitudinal-right",
+                                "plane_uvw": {
+                                    "origin": "0,140,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Left longitudinal joint identification",
+                                "text": "AE",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_out\\Void.TextLabel.G.3dm",
+                                "joint_face": "longitudinal-left",
+                                "plane_uvw": {
+                                    "origin": "0,200,-100",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "guide_rod": [
+                            {
+                                "id": 1,
+                                "name": "Guide rod - slot",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Full.3dm",
+                                "joint_face": "longitudinal-right",
+                                "preinstalled": false,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Guide rod - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "-750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Guide rod - centre",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Long.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Long.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "0,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Guide rod - right",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GuideRod.Short.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GuideRod.Short.3dm",
+                                "joint_face": "longitudinal-left",
+                                "preinstalled": true,
+                                "plane_uvw": {
+                                    "origin": "750,0,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,1,0"
+                                }
+                            }
+                        ],
+                        "handling_pocket": [
+                            {
+                                "id": 1,
+                                "name": "Vacuum lift shear pocket - left - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "name": "Vacuum lift shear pocket - right - top",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "name": "Vacuum lift shear pocket - left - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "-300,200,-300",
+                                    "x_axis": "1,-0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "name": "Vacuum lift shear pocket - right - bottom",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.VacuumErectorPocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "300,200,-300",
+                                    "x_axis": "1,0.12987012987,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ],
+                        "grout_socket": [
+                            {
+                                "id": 1,
+                                "name": "Grouting socket - left",
+                                "obj_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Component.GroutSocket.3dm",
+                                "void_geom": "C:\\Users\\Ilona.Laskowska\\OneDrive - Arup\\01 BIM\\05 Grashopper\\TDA\\BIM Automation\\Block_in\\Void.GroutSocket.3dm",
+                                "plane_uvw": {
+                                    "origin": "0,200,0",
+                                    "x_axis": "1,0,0",
+                                    "y_axis": "0,0,-1"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
